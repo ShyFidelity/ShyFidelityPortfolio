@@ -2,11 +2,19 @@
 
   
 body {
+  
     background-color: black;
 }
-.column {
-    border: blanchedalmond 1px solid;
+
+#smile {
+  background-image: url(./images/smiley2.png);
+  background-repeat: no-repeat;
+  background-position-y:center;
+ 
 }
+/* .column {
+    border: blanchedalmond 1px solid;
+} */
 h2 {
     font-size: 16px;
 }
