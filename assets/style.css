@@ -2,14 +2,14 @@
 
   
 body {
-  
     background-color: black;
 }
 
 #smile {
   background-image: url(./images/smiley2.png);
+  opacity: 90%;
   background-repeat: no-repeat;
-  background-position-y:center;
+  background-position: 1% 90%;
  
 }
 /* .column {
@@ -53,20 +53,13 @@ a {
 
 }
 
-#eternalexternal {
-    background-image: url("./images/Ee.png");
+#eternalexternal, #quizgame, #ivy {
     padding: 4%;
     border-radius: 3px;
 
 }
 
-#jsquiz {
-    background-image: url("./images/camel.png");
-    padding: 4%;
-    border-radius: 3px;
-
-}
-.card-expand { 
+/* .card-expand { 
     overflow: hidden;
     padding: 2rem;
     width: 30%;  
@@ -82,7 +75,7 @@ a {
 .reveal:hover {
     visibility: visible;
     color: white;
-}
+} */
 
 .fancy_card:hover {
     transform: translate3D(0,-1px,0) scale(1.03);
