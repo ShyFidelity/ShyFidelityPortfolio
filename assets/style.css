@@ -52,30 +52,17 @@ a {
     height: auto;
 
 }
-
+#work {
+    padding: 4%;
+}
 #eternalexternal, #quizgame, #ivy {
+    font-size: larger;
     padding: 4%;
     border-radius: 3px;
 
 }
 
-/* .card-expand { 
-    overflow: hidden;
-    padding: 2rem;
-    width: 30%;  
-    transition: max-height 500ms ease-in-out; 
-}
-.reveal {
-      visibility: hidden;
-      overflow: hidden;
-    max-height: 0;
-      transition: 200ms ease-in-out;
-   }
 
-.reveal:hover {
-    visibility: visible;
-    color: white;
-} */
 
 .fancy_card:hover {
     transform: translate3D(0,-1px,0) scale(1.03);
