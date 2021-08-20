@@ -32,7 +32,7 @@
 
 
 <div class="columns is-mobile">
-  <div class="column is-4"> <p id="hi" class="focus-in-expand" class= "is-size-1-mobile">Hi, I'm Jillian</p></div>
+  <div class="column is-3"> <p id="hi" class="focus-in-expand" class= "is-size-1-mobile">Hi, I'm Jillian</p></div>
 
 <div class="columns is-mobile">
   <div class="column is-12 is-offset-4">  <img class="fancy_card" src="./assets/images/happycloud.png" alt="cloud smiling winking and crying"></div>
@@ -44,15 +44,24 @@
   <a href="tel:+3039013230" alt-text = "303 901-3230">(303) 901-3230</a>
  </div></div>  
 
-  <div class="column is-one-third is-offset-1" id ="social">
+ 
+  <div class="columns is-one-third is-offset-1" id ="social">
+    <div class="column is-one-third"><div style="box-sizing:border-box;display:flex;justify-content:center;align-items:center">
+  <div class="sen-gen">
+      <h1> Sentence Generator</h1>
+      <button onclick="sentence()">Refresh<i class="fa fa-refresh" aria-hidden="true"></i></button>
+    </div></div> 
+    <div class="container">
+      <p id="sentence"></p>
+    </div>
     <div class= "fancy_card">
     <p class="title">social</p>
-    <section id="social">
+    <section class="column is-one-third" id="social">
       <div class="socialimages">
        <a href= "https://www.linkedin.com/in/jillian-fitzmaurice-2158971ba/" target="_blank"><img class="linklogo" src="./assets/images/LinkedIn-Logos/LI-In-Bug.png" alt="Jillian FitzMaurice's linkedin profile"></a> 
        <a href = "https://www.instagram.com/jilliankayworks/" target="_blank"><img class="instagramlogo" src="./assets/images/Instagram BRC Asset Downloads - Feb 2021 /IG Glyph Icon/Instagram_Glyph_Gradient_RGB.png" alt="Jillian FitzMaurice's Instagram profile"></a> 
        <a href="https://github.com/jilliankayworks" target= "_blank"><img class="githublogo" src="./assets/images/GitHub-Logos/GitHub_Logo.png" alt="github logo"></a>
-      </div></div>
+      </div></div></div>
     </section>
     
 </div>
@@ -61,10 +70,10 @@
   <div class="column is-4 is-offset-6">
     <div class="tile is-offset-10">
       <div class= "fancy_card" class="tile is-child box">
-        <iframe src="https://giphy.com/embed/ZwMF9XIF7eo9i" width="300" height="300" frameBorder="0"></iframe>
+        <iframe src="https://giphy.com/embed/ZwMF9XIF7eo9i" width="375" height="375" frameBorder="0"></iframe>
         <p class="title">about me</p>
-        <p>
-          Jillian Kay FitzMaurice is an artist studying coding and currently located in Denver, Colorado. Merging the the worlds of tech and finding the <strong>poetry</strong> in <strong>code</strong>. </p>
+        <div id="about-me-card" > <p>
+          Jillian Kay FitzMaurice is an artist studying coding and currently located in Denver, Colorado. Merging the the worlds of tech and finding the <strong>poetry</strong> in <strong>code</strong>. </p> </div>
       </div>
     </div>
     </div>
@@ -72,21 +81,21 @@
 
 
 
-<div id = "work" class="column is-full">
+<div id = "work" class="column is-half">
         <p class="title" class="bd-notification is-info">work</p> 
        
         <div class="columns is-mobile is-full">
          
           <div id = "eternalexternal" class="column"> 
-            <h3>Eternal External</h3>
+           <a href="https://dmosca2021.github.io/adj_project1/"><h3>Eternal External</h3></a> 
           </div>
              
           <div id = "quizgame" class="column"> 
-            <h3>Quiz Game</h3>
+            <a href="https://jilliankayworks.github.io/jillsJavaScriptQuiz/"><h3>Quiz Game</h3></a>
           </div>
         
           <div id = "ivy" class="column"> 
-            <h3>Ivy</h3>
+            <a href="https://jilliankayworks.github.io/whats-the-weather/"><h3>What's the weather?</h3></a>
           </div>
         </div>
       </div>
@@ -99,11 +108,8 @@
     
   <div id="resume" class="column is-one-third" class="fancy_card" > 
       <p class="title">Resume</p>
-      <a href="./assets/images/resume.pdf" download>
-      <img src="/images/myw3schoolsimage.jpg" alt="Resume" width="104" height="142">
-      <i class="fa-solid fa-file-pdf"></i>
-      <i class="fa-solid fa-file-pdf"></i>
-      </a>
+      <a href="./assets/Resume1.pdf" download>
+      <p>download</p></a>
   </div></div>
 
 
