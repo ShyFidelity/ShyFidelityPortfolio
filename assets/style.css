@@ -5,6 +5,13 @@
   
 body {
     background-color: black;
+
+}
+
+#main {
+  background-color: black;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #smile {
@@ -12,7 +19,7 @@ body {
   background-size: auto;
   opacity: 90%;
   background-repeat: no-repeat;
-  background-position: 1% 90%;
+  background-position: 1% 90%; 
   width: 100%;
   height: auto;
  
@@ -54,7 +61,11 @@ a {
 #contactme {
   padding: 5%;
 }
-.socialimages {
+
+#contact a {
+  font-size: 20px;
+}
+.social {
     display: flex;
     padding: 4%;
   
@@ -64,7 +75,7 @@ a {
 /* social logos following company standards  */
 .linklogo, .instagramlogo, .facebooklogo, .githublogo {
     padding: 2%;
-    max-width: 40px;
+    max-width: 50px;
     height: auto;
 
 }
