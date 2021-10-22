@@ -80,6 +80,13 @@ a {
 
 }
 
+.ghlogo {
+  padding: 1%;
+  max-width: 30px;
+  height: auto;
+}
+
+
 #about-me-card {
   background-color: rgba(199, 31, 115, 0.4);
   border-radius: 5px;
