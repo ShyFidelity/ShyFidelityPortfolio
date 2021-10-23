@@ -82,7 +82,7 @@ a {
 
 .ghlogo {
   padding: 1%;
-  max-width: 30px;
+  max-width: 40px;
   height: auto;
 }
 
@@ -94,7 +94,9 @@ a {
 
 p {
   opacity: 100%;
-}
+} 
+
+
 #work {
     padding: 4%;
 }
@@ -153,4 +155,3 @@ p {
       opacity: 1;
     }
   }
-  
