@@ -66,9 +66,8 @@ a {
   font-size: 20px;
 }
 .social {
-    display: flex;
+    display: inline-block;
     padding: 4%;
-  
    
 }
 
@@ -86,28 +85,27 @@ a {
   height: auto;
 }
 
+.ssimage {
+  max-height: 200px;
+  max-width: auto;
+  padding: 1%;
+}
+
 
 #about-me-card {
   background-color: rgba(199, 31, 115, 0.4);
   border-radius: 5px;
   padding: 2%;
 
-p {
-  opacity: 100%;
-} 
 
+}
 
 #work {
-    padding: 4%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 2%;
 }
-#eternalexternal, #quizgame, #ivy {
-    font-size: larger;
-    padding: 4%;
-    border-radius: 3px;
-
-}
-
-
 
 .fancy_card:hover {
     transform: translate3D(0,-1px,0) scale(1.03);
